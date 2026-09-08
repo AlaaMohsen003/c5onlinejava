@@ -1,4 +1,13 @@
 package day6;
 
-public class Squar {
+
+import Day4.Rectangle;
+
+public class Square  extends Rectangle {
+    double calculatePerimeter() {
+
+        return length * 4;
+    }
 }
+
+
