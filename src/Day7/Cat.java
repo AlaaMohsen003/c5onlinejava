@@ -1,8 +1,23 @@
 package Day7;
 
-public class Hascy extends Dog{
+public class Cat extends Dog{
     @Override
     public void makeSound() {
-        super.makeSound();
+        System.out.println("Meow");
     }
+    public void scratch(){
+        System.out.println("I am a cat, I scratch");
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
